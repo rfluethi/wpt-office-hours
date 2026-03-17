@@ -3,8 +3,11 @@ name: Topic Proposal
 about: Suggest a topic for an upcoming Office Hours meeting
 title: "[Topic] "
 labels: topic-proposal
-assignees: ''
 ---
+
+## Before you submit
+
+- [ ] I've searched [existing issues](https://github.com/rfluethi/wpt-office-hours/issues) to check this topic hasn't been proposed already
 
 ## Topic
 
@@ -26,6 +29,10 @@ assignees: ''
 
 <!-- What should participants walk away with? (e.g. a decision, action items, shared understanding) -->
 
+## Preferred timezone
+
+<!-- Optional: Is this topic particularly relevant for a specific timezone group? (e.g. APAC, Americas) -->
+
 ## Notes / Links
 
 <!-- Any relevant links, previous discussions, or context -->
@@ -36,4 +43,4 @@ assignees: ''
 
 ---
 
-*Thanks for your proposal! It will be reviewed and added to the [Kanban board](../../projects). If it's scheduled for an upcoming meeting, it will move to the "Planned" column.*
+*Thanks for your proposal! It will be reviewed and added to the [Kanban board](https://github.com/rfluethi/wpt-office-hours/projects). If it's scheduled for an upcoming meeting, it will move to the "Planned" column.*

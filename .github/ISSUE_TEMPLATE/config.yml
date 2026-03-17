@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: WordPress Slack (#training)
+    url: https://make.wordpress.org/chat/
+    about: Ask questions or share ideas directly in the #training channel – no GitHub account needed.
+  - name: Make WordPress Training Blog
+    url: https://make.wordpress.org/training/
+    about: Read announcements, meeting notes, and proposals from the Training team.
+  - name: Make WordPress Training Handbook
+    url: https://make.wordpress.org/training/handbook/
+    about: Team processes, guidelines, and how to get started as a contributor.
