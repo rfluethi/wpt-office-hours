@@ -42,9 +42,9 @@ wpt-office-hours/
 
 ## Upcoming Meetings
 
-| Date | Time      | Platform | Agenda |
-| ---- | --------- | -------- | ------ |
-| TBD  | 14:00 UTC | Zoom     | TBD    |
+| Date                    | Time      | Platform | Agenda                                             |
+| ----------------------- | --------- | -------- | -------------------------------------------------- |
+| Saturday, April 18 2026 | 14:00 UTC | Zoom     | [2026-04-18-agenda.md](notes/2026-04-18-agenda.md) |
 
 *16:00 CEST · 19:30 IST · 10:00 EDT – times rotate to cover different time zones.*
 
