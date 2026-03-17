@@ -10,6 +10,7 @@ Monthly video meetings for the [Make WordPress Training](https://make.wordpress.
 ## What are the Office Hours?
 
 A monthly 60-minute video meeting where Training team members and contributors can:
+
 - Ask questions and discuss ongoing projects
 - Plan concrete next steps and assign tasks
 - Onboard new contributors in a welcoming, face-to-face setting
@@ -21,7 +22,7 @@ Published on the Make WordPress Training blog: [Proposal post – February 3, 20
 
 ## Repository Structure
 
-```
+```text
 wpt-office-hours/
 ├── README.md                        ← This file
 ├── CONTRIBUTING.md                  ← How to propose topics, review notes, get involved
@@ -41,9 +42,11 @@ wpt-office-hours/
 
 ## Upcoming Meetings
 
-| Date | Time | Platform | Agenda |
-|------|------|----------|--------|
-| TBD | 14:00 UTC *(16:00 CEST · 19:30 IST · 10:00 EDT)* | Zoom | TBD |
+| Date | Time      | Platform | Agenda |
+| ---- | --------- | -------- | ------ |
+| TBD  | 14:00 UTC | Zoom     | TBD    |
+
+*16:00 CEST · 19:30 IST · 10:00 EDT – times rotate to cover different time zones.*
 
 *Past meeting notes are published as blog posts on [make.wordpress.org/training](https://make.wordpress.org/training/).*
 
@@ -53,7 +56,7 @@ wpt-office-hours/
 
 Have a topic suggestion? [Open a Topic Proposal issue](https://github.com/rfluethi/wpt-office-hours/issues/new?template=topic-proposal.md) – no GitHub experience needed.
 
-All proposed topics are tracked on the [Project Kanban Board](https://github.com/rfluethi/wpt-office-hours/projects).
+All proposed topics are tracked on the [Project Kanban Board](https://github.com/users/rfluethi/projects/10).
 
 ---
 
