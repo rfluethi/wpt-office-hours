@@ -1,6 +1,6 @@
 # Office Hours Meeting – Agenda
 
-> **How this template is used:** The moderator copies the structure below when creating a new agenda issue in the [WordPress/Learn](https://github.com/WordPress/Learn/issues) repository. Issue title convention: `Office Hours Agenda – [DATE]` (e.g. `Office Hours Agenda – April 18, 2026`). Apply the **Office Hours** label.
+> **How this template is used:** The moderator copies the structure below when creating a new agenda issue in the [WordPress/Learn](https://github.com/WordPress/Learn/issues) repository. Issue title convention: `Office Hours Agenda: [DATE]` (e.g. `Office Hours Agenda: April 18, 2026`). Apply the **Office Hours** label.
 
 **Date:** [DATE]
 **Time:** 14:00–15:00 UTC *(16:00 CEST · 19:30 IST · 10:00 EDT)*
@@ -12,40 +12,46 @@
 
 ## Agenda (60 minutes)
 
-### 00:00–05:00 – Welcome & Onboarding (5 min)
+### 14:00–14:05 – Welcome & Onboarding (5 min)
 
 - Moderator welcomes participants
 - Reminder of the [WordPress Community Code of Conduct](https://make.wordpress.org/handbook/community-code-of-conduct/)
 - Accessibility check: any needs we should be aware of?
 - Note the WordPress.org usernames of everyone present (the note-taker will need them)
 
-### 05:00–15:00 – Brief Introductions (10 min)
+### 14:05–14:10 – Brief Introductions (5 min)
 
 - Each participant briefly introduces themselves: name, location, role in the WordPress ecosystem
-- For repeat participants, keep it short — prioritize new faces
+- For repeat participants, keep it short; prioritize new faces
 
-### 15:00–25:00 – Topic Presentation (10 min)
+### 14:10–14:20 – Topic Presentation (10 min)
 
 **Topic:** *[TOPIC TITLE]*
 
 - Brief introduction to the meeting topic: what it is, why it matters, what the group hopes to decide or achieve
 - If background material was prepared, share it now (max. 10 minutes)
 
-### 25:00–50:00 – Open Discussion (25 min)
+### 14:20–14:40 – Open Discussion (20 min)
 
 Discussion questions:
 1.
 2.
 3.
 
-### 50:00–60:00 – Review, Next Steps & Wrap-Up (10 min)
+### 14:40–14:50 – Review of Open Action Items (10 min)
 
-- What decisions did we make today?
-- Who takes which task? (Name + target date)
-- Open questions that couldn't be resolved — note as open or proposed for next meeting
-- When is the next meeting? Who moderates?
-- Thank you to all participants
-- Notes will be published on the Make WordPress Training blog after a ~48h correction window
+- Ask responsible persons for a brief status update on open items from the previous meeting
+- If something is blocked or delayed, document it; this is a checkpoint, not a re-discussion
+
+### 14:50–14:55 – Definition of Next Steps (5 min)
+
+- Summarize the decisions made today
+- Confirm each action item: task description, responsible person, and target date
+
+### 14:55–15:00 – Date, Moderator and Note-Taker for the Next Meeting (5 min)
+
+- Confirm the next meeting date, moderator, and note-taker with the group
+- Thank all participants
 - Post Slack closing tag: `</office hour meeting>`
 
 ---

@@ -139,18 +139,20 @@ The Office Hours follow a fixed structure. Keep an eye on the time and move sect
 
 | Time | Section | Duration |
 |------|---------|---------|
-| 00:00–05:00 | **Welcome & Onboarding** | 5 min |
-| 05:00–15:00 | **Brief Introductions** | 10 min |
-| 15:00–25:00 | **Topic Presentation** | 10 min |
-| 25:00–50:00 | **Open Discussion** | 25 min |
-| 50:00–60:00 | **Review, Next Steps & Wrap-Up** | 10 min |
+| 14:00–14:05 | **Welcome & Onboarding** | 5 min |
+| 14:05–14:10 | **Brief Introductions** | 5 min |
+| 14:10–14:20 | **Topic Presentation** | 10 min |
+| 14:20–14:40 | **Open Discussion** | 20 min |
+| 14:40–14:50 | **Review of Open Action Items** | 10 min |
+| 14:50–14:55 | **Definition of Next Steps** | 5 min |
+| 14:55–15:00 | **Date, Moderator and Note-Taker for the Next Meeting** | 5 min |
 
 **Welcome & Onboarding (5 min)**
 - Welcome participants and remind them of the [WordPress Community Code of Conduct](https://make.wordpress.org/handbook/community-code-of-conduct/).
 - Ask if anyone has accessibility needs the group should be aware of.
 - Note the WordPress.org usernames of everyone present (the note-taker will need them).
 
-**Brief Introductions (10 min)**
+**Brief Introductions (5 min)**
 - Ask each participant for a brief introduction: name, location, role in the WordPress ecosystem.
 - For repeat participants, keep this short. Prioritize new faces.
 
@@ -159,20 +161,23 @@ The Office Hours follow a fixed structure. Keep an eye on the time and move sect
 - If a presentation or background material was prepared, share it now (max. 10 minutes).
 - The goal is to bring everyone to the same level of understanding before the discussion opens.
 
-**Open Discussion (25 min)**
+**Open Discussion (20 min)**
 - Work through the discussion questions listed in the agenda.
 - The moderator's role is to facilitate, not to decide. Seek consensus; if consensus is not possible, document the different viewpoints and note that a decision needs to be escalated to Team Reps.
 - Keep the discussion outcome-oriented. If a topic needs more time than available, note it as an open question and propose a follow-up (a smaller group, an async discussion, or a future meeting topic).
 - Watch for participants who haven't spoken yet and invite them in.
 
-**Review, Next Steps & Wrap-Up (10 min)**
+**Review of Open Action Items (10 min)**
+- Ask responsible persons for a brief status update on open items from the previous meeting.
+- If something is blocked or delayed, document it. This is a short checkpoint, not a full re-discussion.
 
-Work through the following items in order:
+**Definition of Next Steps (5 min)**
+- Summarize the decisions made during the meeting.
+- Confirm each action item: task description, responsible person, and target date (where possible).
 
-1. **Review of open action items from previous meetings:** Ask responsible persons for a brief status update. If something is blocked or delayed, document it. This is a short checkpoint, not a full re-discussion.
-2. **Definition of next steps:** Summarize the decisions made and confirm each action item: task description, responsible person, and target date (where possible).
-3. **Set the date, moderator, and note-taker for the next meeting:** Confirm these with the group before closing.
-4. **Wrap-up:** Thank all participants. Remind them that meeting notes will be posted as a comment on this agenda issue within approximately 48 hours and that corrections are welcome.
+**Date, Moderator and Note-Taker for the Next Meeting (5 min)**
+- Confirm the next meeting date, moderator, and note-taker with the group before closing.
+- Thank all participants. Remind them that meeting notes will be posted as a comment on this agenda issue within approximately 48 hours and that corrections are welcome.
 
 ### After the call ends
 

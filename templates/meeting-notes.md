@@ -79,7 +79,7 @@ For routine working sessions, skip this section entirely.
 
 ## Topics Discussed
 
-### Topic 1: [TITLE]
+### 1. [TITLE]
 
 **Discussion:**
 
@@ -111,7 +111,7 @@ Keep this tight — it's the quick-reference version of the discussion above.
 
 - [Any open questions that couldn't be resolved — or "None." if all clear]
 
-### Topic 2: [TITLE]
+### 2. [TITLE]
 
 **Discussion:**
 
