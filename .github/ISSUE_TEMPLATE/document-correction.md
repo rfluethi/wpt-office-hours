@@ -7,7 +7,11 @@ labels: correction
 
 ## Which document needs correction?
 
-<!-- File path or link, e.g. notes/2026-04-19-meeting.md -->
+<!-- Link or reference. Examples:
+     - Agenda issue with draft notes: https://github.com/WordPress/Learn/issues/3413
+     - Published blog post: https://make.wordpress.org/training/2026/04/…
+     - File in this repository: handbook/Organizing Office Hours Meetings.md
+-->
 
 ## What is wrong?
 

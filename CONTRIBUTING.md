@@ -28,13 +28,12 @@ Your proposal will appear on the [Kanban Board](https://github.com/rfluethi/wpt-
 
 ### 2. Review Meeting Notes
 
-After each meeting, a draft of the notes is published in [`/notes`](notes/) before being posted on the Make WordPress Training blog. You have **approximately 48 hours** to suggest corrections.
+After each meeting, a draft of the notes is posted as a comment on the meeting's agenda issue in the [WordPress/Learn](https://github.com/WordPress/Learn/issues) repository before being published on the Make WordPress Training blog. You have **approximately 48 hours** to suggest corrections.
 
-**How to comment on a note:**
-1. Open the file in [`/notes`](notes/)
-2. Click the line you want to comment on (a blue `+` icon appears on the left)
-3. Click the `+` and type your comment
-4. Alternatively, [open a Document Correction issue](https://github.com/rfluethi/wpt-office-hours/issues/new?template=document-correction.md) and reference the file
+**How to suggest a correction:**
+1. Open the agenda issue for the meeting in [WordPress/Learn/issues](https://github.com/WordPress/Learn/issues) (look for issues titled `Office Hours Agenda – [DATE]` with the **Office Hours** label).
+2. Add a comment on the issue with your suggested correction – quote the passage you're referring to so it's clear what needs changing.
+3. Alternatively, [open a Document Correction issue](https://github.com/rfluethi/wpt-office-hours/issues/new?template=document-correction.md) and link to the agenda issue.
 
 Once approved, the notes are published on [make.wordpress.org/training](https://make.wordpress.org/training/).
 
@@ -81,8 +80,7 @@ Anyone can propose changes via Issues or Pull Requests. Significant format chang
 | `good first issue` | A great starting point for new contributors |
 | `meta` | Discussion about the Office Hours format itself |
 | `help-wanted` | Looking for someone to take on a task |
-| `timezone-APAC` | Relevant for an APAC-friendly meeting time |
-| `timezone-Americas` | Relevant for an Americas-friendly meeting time |
+| `correction` | Necessary correction |
 
 ---
 

@@ -6,13 +6,13 @@
 
 - [ ] Fix: typo, broken link, or formatting error
 - [ ] Improvement: clarification or additional context in an existing document
-- [ ] New content: meeting notes, agenda, or new document
 - [ ] Template update: change to a template in `/templates/`
+- [ ] Handbook draft update: change to a document in `/handbook/`
 
 ## Checklist
 
-- [ ] I followed the [filename convention](notes/README.md) (for notes/agendas: `YYYY-MM-DD-*.md`)
 - [ ] I checked that all links work
+- [ ] My changes are consistent with the [Organizing Office Hours Meetings](../handbook/Organizing%20Office%20Hours%20Meetings.md) process guide
 - [ ] My changes follow the [WordPress Community Code of Conduct](https://make.wordpress.org/handbook/community-code-of-conduct/)
 
 ## Related Issue
