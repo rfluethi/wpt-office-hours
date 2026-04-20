@@ -1,4 +1,4 @@
-# Office Hours Meeting – Notes
+# Office Hours Meeting Recap - [DATE]
 
 <!--
 HOW TO USE THIS TEMPLATE
