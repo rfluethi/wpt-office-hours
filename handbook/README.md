@@ -32,7 +32,7 @@ The documents are drafts intended for review and discussion within the Training 
 
 | Handbook page                                                                                                                                                                    | Change type                                                                                                       |
 | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- |
-| [Hosting Training Team Meetings](https://make.wordpress.org/training/handbook/training-team-how-to-guides/hosting-training-team-meetings/)                                       | Add Office Hours section; update Coffee Hours note                                                                |
+| [Hosting Training Team Meetings](https://make.wordpress.org/training/handbook/training-team-how-to-guides/hosting-training-team-meetings/)                                       | Add Office Hours section; add Coffee Hours note                                                                   |
 | [How to Write Meeting Agendas and Recap Posts](https://make.wordpress.org/training/handbook/training-team-how-to-guides/how-to-write-a-meeting-agenda-or-recap/)                 | Add Office Hours agenda and recap section                                                                         |
 | [How We Use GitHub](https://make.wordpress.org/training/handbook/training-team-how-to-guides/how-we-use-github/)                                                                 | Add Office Hours Issues section                                                                                   |
 | GitHub Labels *(new page)*                                                                                                                                                       | Create new sub-page under *How We Use GitHub*; document all labels including Office Hours label                   |
@@ -47,7 +47,7 @@ The documents are drafts intended for review and discussion within the Training 
 
 ## Status
 
-These documents are working drafts. They reflect the process as established during the Office Hours pilot phase (April–June 2026).
+These documents are working drafts. They reflect the process as established during the Office Hours pilot phase, which started in April 2026 and is still running.
 
 After the pilot evaluation, the plan is to:
 1. Propose *Organizing Office Hours Meetings* as a new handbook page via the standard handbook contribution process.

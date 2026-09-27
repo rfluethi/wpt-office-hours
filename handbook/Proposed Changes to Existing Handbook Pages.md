@@ -33,7 +33,7 @@ The page describes two meeting formats: the weekly Slack-based Team Meetings and
 
 ### Problem
 
-Office Hours exist as a third, distinct meeting format that is not mentioned anywhere on this page. Office Hours have replaced Coffee Hours as the team's primary video format. Someone reading this page has no way of knowing that Office Hours exist or how they differ from Coffee Hours.
+Office Hours exist as a third, distinct meeting format that is not mentioned anywhere on this page. Office Hours are held in addition to Coffee Hours, not instead of them. Someone reading this page has no way of knowing that Office Hours exist or how they differ from Coffee Hours.
 
 ### Proposed changes
 
@@ -43,13 +43,13 @@ Expand the opening sentence to include Office Hours:
 
 > **Current:** *"The Training Team alternates between official Team Meetings and casual Coffee Hours each week in the #training Slack channel."*
 >
-> **Proposed:** *"The Training Team holds weekly Slack-based Team Meetings, occasional informal Coffee Hours, and a monthly Office Hours video meeting. You can see the current meeting times in the welcome box on Make.WordPress.org/Training."*
+> **Proposed:** *"The Training Team holds weekly Slack-based Team Meetings, informal Coffee Hours for new contributors, and a monthly Office Hours video meeting. You can see the current meeting times in the welcome box on Make.WordPress.org/Training."*
 
 **B. Add a transition note to the Coffee Hours section**
 
 At the start of the *Hosting Coffee Hours* section:
 
-> **Note:** As of April 2026, the Training Team introduced Office Hours as the team's primary structured monthly video meeting. Coffee Hours may still be held as informal, social sessions, but are no longer the main video format. See [Hosting Office Hours](#hosting-office-hours) below.
+> **Note:** Since April 2026, the Training Team also holds Office Hours, a structured monthly video meeting on broader, cross-cutting questions. Coffee Hours continue as the informal meeting for new contributors with questions about the Training Team. See [Hosting Office Hours](#hosting-office-hours) below.
 
 **C. Add a new "Hosting Office Hours" section**
 
@@ -59,14 +59,27 @@ Insert after the Coffee Hours section:
 
 **Hosting Office Hours**
 
-Office Hours are the Training Team's monthly 60-minute structured video meetings on Zoom. Unlike Coffee Hours, they follow a fixed agenda and every session produces concrete action items tracked as GitHub issues. Moderation and note-taking rotate among team members.
+The Office Hours are a one-hour video call on Zoom, once a month. This is where the team discusses bigger, cross-cutting questions: what needs to change and how. Each session has a topic announced in advance, and there is room for your own questions as well. Whatever is agreed on becomes an issue in the [WordPress/Learn](https://github.com/WordPress/Learn/issues) repository and is published in the recap on [make.wordpress.org/training](https://make.wordpress.org/training/).
+
+**Who can join?** Everyone. No registration and no prior experience needed. You'll find the Zoom link in the [#training](https://wordpress.slack.com/messages/training/) Slack channel. Questions about content in your language or about your local group are explicitly welcome.
+
+**What if no one in the room can help?** We note the question and pass it on to the right person. You leave with a name you can reach out to.
+
+**Who moderates?** Anyone on the team; you don't need to be a Team Representative. The moderator gives everyone the floor, proposes three topics in the weekly Tuesday meeting, and announces the chosen one. If you'd like to moderate, let us know in [#training](https://wordpress.slack.com/messages/training/). As moderator, you get access to the team's Zoom account through the TT-Admins (`@tt-admins` in `#training`).
+
+**When is the next session?** Date, time (UTC), topic, moderator, and Zoom link are posted in [#training](https://wordpress.slack.com/messages/training/) on the Monday before each session.
+
+**What doesn't belong here?** Going through individual issues, unless they belong to the current topic. That is the job of the TT-Admins meeting.
+
+Unlike Coffee Hours, which are an informal meeting for new contributors, Office Hours follow a fixed agenda, and every session produces concrete action items tracked as GitHub issues. Moderation and note-taking rotate among team members.
 
 For the complete process (including how to prepare the agenda, run the meeting, create GitHub issues, and publish the recap), see: [Organizing Office Hours Meetings](https://make.wordpress.org/training/handbook/training-team-how-to-guides/organizing-office-hours-meetings/)
 
 **Quick reference for moderators:**
 - Post `<office hour meeting>` in `#training` with the Zoom link when the meeting starts (logs time for [Five for the Future](https://make.wordpress.org/five-for-the-future/)).
 - Post `</office hour meeting>` in `#training` when the meeting ends.
-- Announce the meeting in `#training` at least one week and again 24 hours before.
+- Announce the meeting in `#training` at least one week before and again on the Monday before the meeting (date, time in UTC, Zoom link, moderator, topic).
+- Existing issues are only discussed if they belong to the meeting topic; everything else goes to the TT-Admins.
 - At least one Team Representative should be present at each session.
 
 ---
@@ -179,7 +192,7 @@ Recommended location: after *Use sub-issues*, before *Triaging project boards*.
 
 The monthly Office Hours video meeting generates two types of issues in `WordPress/Learn`, both labelled **Office Hours**:
 
-**Agenda issues:** Created by the moderator before each meeting using the **Meeting Agenda** template. Title format: `Office Hours Agenda: [DATE]`. The meeting notes are posted as a comment on this issue after the meeting, and the issue is closed once the recap blog post is published.
+**Agenda issues:** Created by the moderator before each meeting using the **Meeting Agenda** template. Title format: `Run and document Office Hours on [DATE]`. The meeting notes are posted as a comment on this issue after the meeting, and the issue is closed once the recap blog post is published.
 
 **Action item issues:** Created after each meeting for every action item identified during the session. These are task issues assigned to a responsible team member. Unlike content development issues, they relate to team process and coordination rather than learning content.
 
@@ -369,7 +382,7 @@ Also add a reference in the [Organizing Office Hours Meetings](https://make.word
 
 | Page | Priority | Type of change |
 |------|----------|---------------|
-| Hosting Training Team Meetings | **High** | Coffee Hours transition note + new Office Hours section |
+| Hosting Training Team Meetings | **High** | Coffee Hours note (Office Hours in addition to Coffee Hours) + new Office Hours section |
 | How to Write Meeting Agendas and Recap Posts | **High** | New section for Office Hours agenda and recap (incl. 48h draft step) |
 | How We Use GitHub (main page) | **High** | New "Office Hours Issues" section + expanded use case list |
 | GitHub Labels *(new page)* | **High** | Create new handbook sub-page under *How We Use GitHub*; document all labels including the Office Hours label; clarify naming convention (`Office Hours` vs. `[Admin] Office Hours`) |

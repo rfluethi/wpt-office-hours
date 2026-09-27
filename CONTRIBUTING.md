@@ -31,7 +31,7 @@ Your proposal will appear on the [Kanban Board](https://github.com/rfluethi/wpt-
 After each meeting, a draft of the notes is posted as a comment on the meeting's agenda issue in the [WordPress/Learn](https://github.com/WordPress/Learn/issues) repository before being published on the Make WordPress Training blog. You have **approximately 48 hours** to suggest corrections.
 
 **How to suggest a correction:**
-1. Open the agenda issue for the meeting in [WordPress/Learn/issues](https://github.com/WordPress/Learn/issues) (look for issues titled `Office Hours Agenda – [DATE]` with the **Office Hours** label).
+1. Open the agenda issue for the meeting in [WordPress/Learn/issues](https://github.com/WordPress/Learn/issues) (look for issues titled `Run and document Office Hours on [DATE]` with the **Office Hours** label).
 2. Add a comment on the issue with your suggested correction – quote the passage you're referring to so it's clear what needs changing.
 3. Alternatively, [open a Document Correction issue](https://github.com/rfluethi/wpt-office-hours/issues/new?template=document-correction.md) and link to the agenda issue.
 
@@ -42,6 +42,8 @@ Once approved, the notes are published on [make.wordpress.org/training](https://
 We rotate moderators to share facilitation responsibility and help everyone build confidence.
 
 - No experience required – templates and checklists are provided
+- You don't need to be a Team Representative
+- As moderator, you give everyone the floor; you choose three possible topics for the Tuesday meeting and announce the chosen one
 - A co-moderator will always support you
 - You moderate at most once every 3 months
 - You can always decline without explanation

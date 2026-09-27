@@ -1,6 +1,6 @@
 # Organizing Office Hours Meetings
 
-> **Status:** Draft, based on the [Office Hours proposal](https://make.wordpress.org/training/2026/02/03/proposal-monthly-office-hour-meeting-for-make-wordpress-training/) and decisions made at the [first Office Hours meeting (April 18, 2026)](https://github.com/WordPress/Learn/issues/3413).
+> **Status:** Draft, based on the [Office Hours proposal](https://make.wordpress.org/training/2026/02/03/proposal-monthly-office-hour-meeting-for-make-wordpress-training/) and decisions made at the Office Hours meetings from the [first meeting (April 18, 2026)](https://github.com/WordPress/Learn/issues/3413) to the [meeting on September 26, 2026](https://github.com/WordPress/Learn/issues/3641).
 >
 > This guide covers the full process for organizing a Training Team Office Hours meeting: planning, running the meeting, creating GitHub issues for action items, and publishing the meeting notes.
 
@@ -9,6 +9,7 @@
 ## In this article
 
 - [Overview](#overview)
+- [Scope of the Office Hours](#scope-of-the-office-hours)
 - [1. Planning the Meeting](#1-planning-the-meeting)
   - [Confirm the date and moderator](#confirm-the-date-and-moderator)
   - [Confirm the note-taker](#confirm-the-note-taker)
@@ -48,6 +49,21 @@ The Training Team Office Hours is a monthly 60-minute video meeting on Zoom. It 
 
 ---
 
+## Scope of the Office Hours
+
+The Office Hours are one of several Training Team meeting formats. Each format has its own purpose:
+
+| Format | Purpose |
+|--------|---------|
+| **Weekly Tuesday meeting** (Slack) | Team-wide information and coordination: status, announcements, proposals, reports from the other formats |
+| **Office Hours** (Zoom, monthly) | Broader, cross-cutting questions: what needs to change and how. Decisions are turned into GitHub issues |
+| **TT-Admins meeting** | Following up on issues, triage, and checking who implements what |
+| **Coffee Hours** | Informal meeting for new contributors with questions about the Training Team. The Office Hours are held in addition to the Coffee Hours, not instead of them |
+
+**Issues in the Office Hours:** Existing issues are only worked on in the Office Hours if they belong to the topic being discussed. Reviewing, triaging, or closing other issues is the task of the TT-Admins.
+
+---
+
 ## 1. Planning the Meeting
 
 Planning should begin **at least two weeks** before the meeting. The previous meeting's final agenda item is to confirm the date, moderator, and note-taker for the next meeting; use those decisions as your starting point.
@@ -57,13 +73,15 @@ Planning should begin **at least two weeks** before the meeting. The previous me
 The date and moderator for the next meeting are decided at the end of each Office Hours session and recorded in the meeting notes. Before planning begins, confirm that both are still available.
 
 **Scheduling guidelines:**
-- Meetings are held once per month, typically on a **Saturday at 14:00 UTC**.
+- Meetings are held once per month at **14:00 UTC**. Always state times in UTC.
+- Until September 2026, meetings were held on the last Saturday of the month. Since October 2026, a weekday is being tested; avoid Mondays and Fridays.
 - The time slot may rotate across meetings to accommodate different time zones.
 - Consult any published polls on preferred meeting times (see action items from previous meetings).
 - Avoid dates that conflict with major WordPress events (WordCamps, contributor days) or public holidays in participants' regions.
 
 **Moderator responsibilities:**
-- Any Training Team member may moderate.
+- The role is called **moderator**, not host: the moderator gives everyone the floor and makes sure all participants can share their view.
+- Any Training Team member may moderate. The role is not limited to Team Representatives.
 - No one should moderate more than once every three months.
 - The moderator is supported by a co-moderator (the note-taker or another participant willing to step in if needed).
 - If you are moderating for the first time, reach out to a previous moderator for a brief prep conversation.
@@ -72,6 +90,8 @@ The date and moderator for the next meeting are decided at the end of each Offic
 ### Confirm the note-taker
 
 The note-taker is responsible for writing up the meeting notes after the meeting. If no note-taker was confirmed at the previous meeting, ask for a volunteer in the `#training` Slack channel. No one should take notes more than once every three months.
+
+Also name a **backup note-taker** who steps in if the confirmed note-taker cannot attend at short notice. A note-taker who cannot attend lets the moderator know as early as possible.
 
 ### Set up Zoom
 
@@ -88,7 +108,13 @@ Steps:
 
 **Selecting the topic:**
 
-Topic proposals are collected as GitHub issues in the [wpt-office-hours repository](https://github.com/rfluethi/wpt-office-hours/issues). The moderator reviews open proposals and selects the topic for the upcoming meeting. When selecting a topic, consider:
+Topic proposals are collected as GitHub issues in the [wpt-office-hours repository](https://github.com/rfluethi/wpt-office-hours/issues). The moderator is responsible for the topic selection:
+
+1. The moderator picks **three distinct topics** from the topic list and presents them in the weekly Tuesday meeting.
+2. The team chooses one of them.
+3. The moderator confirms the chosen topic and announces it in `#training` well in advance (see [Announce the meeting](#announce-the-meeting)).
+
+While attendance is low, prefer simpler topics. When selecting the three topics, consider:
 - Topics that have been waiting longest
 - Topics that have high community interest (upvotes, comments)
 - Topics that require a decision from the team
@@ -98,7 +124,7 @@ Topic proposals are collected as GitHub issues in the [wpt-office-hours reposito
 The agenda is published as a new GitHub issue in the main Training Team repository. Use the [agenda template](../templates/agenda.md) as a structural reference.
 
 1. Go to [github.com/WordPress/Learn/issues/new/choose](https://github.com/WordPress/Learn/issues/new/choose) and select the **Meeting Agenda** template.
-2. Set the issue title to: `Office Hours Agenda: [DATE]` (e.g. `Office Hours Agenda: May 23, 2026`).
+2. Set the issue title to: `Run and document Office Hours on [DATE]` (e.g. `Run and document Office Hours on September 26, 2026`).
 3. Fill in all placeholders in the issue body: date, time, Zoom link, moderator, note-taker, discussion topic, and discussion questions.
 4. Apply the **Office Hours** label.
 5. **Publish the agenda at least 48 hours before the meeting** so that participants, especially non-native English speakers, have time to prepare.
@@ -109,9 +135,10 @@ The agenda is published as a new GitHub issue in the main Training Team reposito
 
 **Slack `#training` channel**
 
-Send two reminders in the `#training` channel:
-- **One week before:** Share the agenda issue link, meeting date, time, and Zoom link.
-- **24 hours before:** Short reminder with date, time, Zoom link, and agenda link.
+Send reminders in the `#training` channel:
+- **One week before:** Share the agenda issue link, meeting date, time (UTC), and Zoom link.
+- **On the Monday before the meeting:** Short reminder with date, time (UTC), Zoom link, moderator, and topic. Add that other points can be raised as well.
+- **24 hours before (optional):** If the meeting is later in the week, a short reminder with the agenda link.
 
 Also add the meeting to the [Make WordPress meetings calendar](https://make.wordpress.org/meetings/#training) if you have access, or ask a Team Rep to do so.
 
@@ -158,11 +185,13 @@ The Office Hours follow a fixed structure. Keep an eye on the time and move sect
 
 **Topic Presentation (10 min)**
 - Briefly introduce the meeting's main topic: what it is, why it matters, what the group hopes to decide or achieve.
+- If the topic needs an introduction, the moderator decides beforehand who gives it (guideline: about 10 minutes). For simple topics, the introduction can be skipped.
 - If a presentation or background material was prepared, share it now (max. 10 minutes).
 - The goal is to bring everyone to the same level of understanding before the discussion opens.
 
 **Open Discussion (20 min)**
 - Work through the discussion questions listed in the agenda.
+- Existing issues are only discussed if they belong to the topic. Other issues are handed over to the TT-Admins.
 - The moderator's role is to facilitate, not to decide. Seek consensus; if consensus is not possible, document the different viewpoints and note that a decision needs to be escalated to Team Reps.
 - Keep the discussion outcome-oriented. If a topic needs more time than available, note it as an open question and propose a follow-up (a smaller group, an async discussion, or a future meeting topic).
 - Watch for participants who haven't spoken yet and invite them in.
@@ -176,7 +205,8 @@ The Office Hours follow a fixed structure. Keep an eye on the time and move sect
 - Confirm each action item: task description, responsible person, and target date (where possible).
 
 **Date, Moderator and Note-Taker for the Next Meeting (5 min)**
-- Confirm the next meeting date, moderator, and note-taker with the group before closing.
+- Confirm the next meeting date, moderator, note-taker, and backup note-taker with the group before closing.
+- If the date cannot be set in the meeting, name **one person** who sets the date and confirms moderator and note-taker by a specific deadline, and record this in the recap.
 - Thank all participants. Remind them that meeting notes will be posted as a comment on this agenda issue within approximately 48 hours and that corrections are welcome.
 
 ### After the call ends
@@ -234,9 +264,11 @@ The meeting notes are written as a comment on the agenda GitHub issue, not as a 
 2. Use the [meeting notes template](../templates/meeting-notes.md) as a structural guide for the comment.
 3. Fill in all sections:
    - **Meeting Context:** 2–4 sentences explaining what this meeting was about and why it matters.
+   - **Structure:** Use the agenda as an outline prepared before the meeting; it keeps the recap close to what was planned and makes unplanned topics visible.
    - **Participants:** Full names and WordPress.org usernames (not Slack usernames). Use the table format from the template.
    - **Topics Discussed:** For each topic: a narrative discussion summary (who said what and why it mattered) and a scannable outcome bullet list.
-   - **Decisions:** Only formal decisions, listed in the decisions table. Add a rationale note for any decision where the reasoning is important to preserve.
+   - **Decisions:** Only formal decisions, listed in the decisions table. Record the reasoning behind each decision so that people who were not present can follow it, and turn decisions into GitHub issues (see [Creating GitHub Issues for Action Items](#3-creating-github-issues-for-action-items)).
+   - **Recommendations:** Points the participants agreed on that still need confirmation by the team.
    - **Action Items:** Every action item with task description, responsible person (WordPress.org username), and status. Link to the corresponding GitHub issue number.
    - **Follow-up from Previous Meeting:** Status of action items from the previous meeting.
    - **Next Meeting:** Date, time, moderator, and proposed topics.
@@ -288,7 +320,7 @@ Once the post is published:
 Moderation and note-taking both rotate among team members. The guidelines below apply equally to both roles and help keep the rotation fair and sustainable.
 
 - **No one should moderate or take notes more than once every three months.**
-- The next meeting's moderator and note-taker are confirmed at the end of each meeting and recorded in the meeting notes.
+- The next meeting's moderator, note-taker, and backup note-taker are confirmed at the end of each meeting and recorded in the meeting notes.
 - Any Training Team member may take on either role; experience is not required, and support is available.
 - **First-time moderators** are encouraged to reach out to a previous moderator for a brief prep call. The agenda checklist and this guide are your main preparation tools.
 - Both the moderator and the note-taker have the right to decline without explanation. If a confirmed person needs to step down, they should notify the group at least one week in advance so a replacement can be found.

@@ -156,6 +156,19 @@ broader discussion about X. The group explicitly followed the reasoning that…
 
 *Rationale for Decision [N]:* [Context and reasoning, if relevant.]
 
+## Recommendations
+
+<!--
+Points the participants agreed on that still need confirmation by the team
+(e.g. in the weekly Tuesday meeting). Remove this section if there are none.
+
+The "Consensus of participants" column: Yes / Yes, as a proposal / No
+-->
+
+| # | Recommendation | Consensus of participants |
+|---|----------------|---------------------------|
+| 1 | [Recommendation text] | Yes / Yes, as a proposal |
+
 ## Action Items
 
 <!--
@@ -194,6 +207,12 @@ Status values: Done / Open / Postponed / Dropped
 **Time:** [TIME] UTC
 **Moderator:** [@username](https://profiles.wordpress.org/USERNAME/)
 **Note-Taker:** [@username or "TBD"](https://profiles.wordpress.org/USERNAME/)
+**Backup Note-Taker:** [@username or "TBD"](https://profiles.wordpress.org/USERNAME/)
+
+<!--
+If date or roles are still open: name the person who sets them and the deadline,
+e.g. "Date open: @username sets date, moderator and note-taker by [DATE]."
+-->
 
 **Proposed topics:**
 

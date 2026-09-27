@@ -6,6 +6,46 @@ Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ---
 
+## [0.3.0-beta] – 2026-09-26
+
+Updates based on the Office Hours meetings of June 27, July 26, August 22, and September 26, 2026. The pilot phase continues.
+
+### Changed
+
+**`README.md`**
+- *What are the Office Hours?* replaced with a short description of the format that can be linked for new contributors (who can join, what happens if no one can help, who moderates, where to find the Zoom link, what does not belong here).
+- Pilot phase described as ongoing (started April 2026, no end date yet) instead of April to June 2026.
+- *Upcoming Meetings*: reminder in `#training` on the Monday before each meeting.
+
+**`handbook/Organizing Office Hours Meetings.md`**
+- New section *Scope of the Office Hours*: purpose of the Tuesday meeting, Office Hours, TT-Admins meeting, and Coffee Hours; existing issues are only discussed if they belong to the current topic.
+- Scheduling: times always in UTC; weekday test from October 2026 (avoid Mondays and Fridays).
+- Role is called moderator, not host; not limited to Team Representatives.
+- Topic selection: moderator presents three topics in the Tuesday meeting, the team chooses.
+- Topic introduction: moderator decides who gives it (about 10 minutes), optional for simple topics.
+- Announcements: Monday reminder added; 24h reminder optional.
+- Backup note-taker; fallback rule if the next date cannot be set in the meeting.
+- Recap: record the reasoning behind decisions, turn decisions into issues, new *Recommendations* part.
+- Agenda issue title changed to `Run and document Office Hours on [DATE]`, matching current practice.
+
+**`handbook/Proposed Changes to Existing Handbook Pages.md`**
+- Office Hours are held in addition to Coffee Hours, not instead of them.
+- *Hosting Office Hours* introduction replaced with the short description from the README.
+- Announcement and issue rules aligned with the process guide; agenda issue title updated.
+
+**`templates/agenda.md`**
+- Time in UTC only, with local time link.
+- Fields for backup note-taker and topic introduction; checklist for topic selection and Monday reminder.
+- Text template for the Monday reminder in `#training`.
+
+**`templates/meeting-notes.md`**
+- New *Recommendations* section; backup note-taker and open-date rule under *Next Meeting*.
+
+**`CONTRIBUTING.md`**
+- Agenda issue title updated; moderator role clarified.
+
+---
+
 ## [0.2.0-beta] – 2026-04-20
 
 ### Added

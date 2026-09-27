@@ -1,12 +1,14 @@
 # Office Hours Meeting – Agenda
 
-> **How this template is used:** The moderator copies the structure below when creating a new agenda issue in the [WordPress/Learn](https://github.com/WordPress/Learn/issues) repository. Issue title convention: `Office Hours Agenda: [DATE]` (e.g. `Office Hours Agenda: April 18, 2026`). Apply the **Office Hours** label.
+> **How this template is used:** The moderator copies the structure below when creating a new agenda issue in the [WordPress/Learn](https://github.com/WordPress/Learn/issues) repository. Issue title convention: `Run and document Office Hours on [DATE]` (e.g. `Run and document Office Hours on September 26, 2026`). Apply the **Office Hours** label.
 
 **Date:** [DATE]
-**Time:** 14:00–15:00 UTC *(16:00 CEST · 19:30 IST · 10:00 EDT)*
+**Time:** 14:00–15:00 UTC ([local time](https://www.timeanddate.com/worldclock/fixedtime.html?hour=14&min=00&sec=0))
 **Platform:** Zoom – [LINK]
 **Moderator:** [NAME] (@wordpress-username)
 **Note-Taker:** [NAME] (@wordpress-username)
+**Backup Note-Taker:** [NAME] (@wordpress-username)
+**Topic introduced by:** [NAME] (@wordpress-username) or "No introduction needed"
 
 ---
 
@@ -30,6 +32,7 @@
 
 - Brief introduction to the meeting topic: what it is, why it matters, what the group hopes to decide or achieve
 - If background material was prepared, share it now (max. 10 minutes)
+- Existing issues are only discussed if they belong to this topic
 
 ### 14:20–14:40 – Open Discussion (20 min)
 
@@ -50,7 +53,8 @@ Discussion questions:
 
 ### 14:55–15:00 – Date, Moderator and Note-Taker for the Next Meeting (5 min)
 
-- Confirm the next meeting date, moderator, and note-taker with the group
+- Confirm the next meeting date, moderator, note-taker, and backup note-taker with the group
+- If the date cannot be set: name one person who sets it and confirms the roles by a deadline
 - Thank all participants
 - Post Slack closing tag: `</office hour meeting>`
 
@@ -58,13 +62,29 @@ Discussion questions:
 
 ## Before the Meeting (Moderator Checklist)
 
+- [ ] Present three topics in the weekly Tuesday meeting and confirm the chosen one
+- [ ] Decide who introduces the topic (if needed)
 - [ ] Set up and test Zoom link
 - [ ] Create the agenda issue in [WordPress/Learn](https://github.com/WordPress/Learn/issues/new/choose) using the **Meeting Agenda** template; apply the **Office Hours** label
 - [ ] Add the meeting to the [Make WordPress meetings calendar](https://make.wordpress.org/meetings/#training) (or ask a Team Rep)
-- [ ] Send reminder in Slack `#training` (1 week + 24h before) with the agenda issue link
+- [ ] Send reminder in Slack `#training` one week before with the agenda issue link
+- [ ] Send reminder on the Monday before the meeting: date, time (UTC), Zoom link, moderator, topic
 - [ ] Share the agenda issue link and the [notes template](meeting-notes.md) with the note-taker
 - [ ] Publish the agenda issue at least 48h before the meeting
 - [ ] At meeting start: post in Slack `<office hour meeting>` + Zoom link (logs time for [Five for the Future](https://make.wordpress.org/five-for-the-future/))
+
+---
+
+### Text template for the Monday reminder
+
+Copy into `#training` on the Monday before the meeting and fill in the placeholders:
+
+```text
+Office Hours on [DATE], 14:00 UTC (local time: https://www.timeanddate.com/worldclock/fixedtime.html?hour=14&min=00&sec=0)
+Topic: [TOPIC] | Moderator: @[username] | Zoom: [LINK] | Agenda: [ISSUE LINK]
+
+Office Hours: one hour on Zoom once a month, open to everyone. We discuss cross-cutting questions of the Training Team. Each session has an announced topic, and your own questions are welcome, including about your language. If no one can help, we connect you with the right person. Anyone on the team can moderate.
+```
 
 ---
 
@@ -76,7 +96,7 @@ Discussion questions:
 - [ ] Publish approved notes as blog post on make.wordpress.org/training
 - [ ] Add a comment to the agenda issue with the blog post link, then close the issue
 - [ ] Share action items in Slack `#training`
-- [ ] Announce next meeting date and moderator
+- [ ] Announce next meeting date, moderator, and note-taker (or the person responsible for setting them)
 - [ ] Collect feedback (Slack thread or short form)
 
 ---

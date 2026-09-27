@@ -9,11 +9,17 @@ Monthly video meetings for the [Make WordPress Training](https://make.wordpress.
 
 ## What are the Office Hours?
 
-A monthly 60-minute video meeting where Training team members and contributors can:
+The Office Hours are a one-hour video call on Zoom, once a month. This is where the team discusses bigger, cross-cutting questions: what needs to change and how. Each session has a topic announced in advance, and there is room for your own questions as well. Whatever is agreed on becomes an issue in the [WordPress/Learn](https://github.com/WordPress/Learn/issues) repository and is published in the recap on [make.wordpress.org/training](https://make.wordpress.org/training/).
 
-- Ask questions and discuss ongoing projects
-- Plan concrete next steps and assign tasks
-- Onboard new contributors in a welcoming, face-to-face setting
+**Who can join?** Everyone. No registration and no prior experience needed. You'll find the Zoom link in the [#training](https://wordpress.slack.com/messages/training/) Slack channel. Questions about content in your language or about your local group are explicitly welcome.
+
+**What if no one in the room can help?** We note the question and pass it on to the right person. You leave with a name you can reach out to.
+
+**Who moderates?** Anyone on the team; you don't need to be a Team Representative. The moderator gives everyone the floor, proposes three topics in the weekly Tuesday meeting, and announces the chosen one. If you'd like to moderate, let us know in [#training](https://wordpress.slack.com/messages/training/). As moderator, you get access to the team's Zoom account through the TT-Admins (`@tt-admins` in `#training`).
+
+**When is the next session?** Date, time (UTC), topic, moderator, and Zoom link are posted in [#training](https://wordpress.slack.com/messages/training/) on the Monday before each session.
+
+**What doesn't belong here?** Going through individual issues, unless they belong to the current topic. That is the job of the TT-Admins meeting.
 
 Read the full proposal: [docs/proposal.md](docs/proposal.md)
 Published on the Make WordPress Training blog: [Proposal post – February 3, 2026](https://make.wordpress.org/training/2026/02/03/proposal-monthly-office-hour-meeting-for-make-wordpress-training/)
@@ -22,7 +28,7 @@ Published on the Make WordPress Training blog: [Proposal post – February 3, 20
 
 ## About This Repository
 
-This is a temporary pilot repository. It was created to organize and document the Office Hours format during a three-month trial period running from April to June 2026. Keeping the pilot work in a separate space allows the format to be tested and refined without affecting the official Training Team infrastructure.
+This is a temporary pilot repository. It was created to organize and document the Office Hours format during its pilot phase, which started in April 2026 and is still running. An end date for the pilot has not been set yet. Keeping the pilot work in a separate space allows the format to be tested and refined without affecting the official Training Team infrastructure.
 
 If the team decides to continue Office Hours after the pilot evaluation, the plan is to:
 
@@ -31,7 +37,7 @@ If the team decides to continue Office Hours after the pilot evaluation, the pla
 3. Transfer this repository and its issue history into the official Training Team structures at [github.com/WordPress/Learn](https://github.com/WordPress/Learn).
 4. Archive or close this repository once the transfer is complete.
 
-Until then, this repository is the canonical reference for the Office Hours process. The handbook documents in `/handbook/` reflect the process as it stands at the end of the pilot phase.
+Until then, this repository is the canonical reference for the Office Hours process. The handbook documents in `/handbook/` reflect the process as it currently stands during the pilot phase.
 
 ---
 
@@ -65,7 +71,7 @@ wpt-office-hours/
 
 The date of the next Office Hours meeting is listed on the [Make WordPress Training homepage](https://make.wordpress.org/training/) under **Office Hours**.
 
-*Meeting times rotate to cover different time zones. Past meeting notes are published as blog posts on [make.wordpress.org/training](https://make.wordpress.org/training/).*
+*Date, time (UTC), topic, moderator, and Zoom link are posted in the `#training` Slack channel on the Monday before each meeting. Past meeting recaps are published as blog posts on [make.wordpress.org/training](https://make.wordpress.org/training/).*
 
 ---
 
